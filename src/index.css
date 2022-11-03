@@ -20,19 +20,11 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.8rem 1.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(132, 53, 222, 1) 0%,
-    rgba(184, 84, 232, 1) 100%
-  );
+  background: #0f132e;
   border-radius: 3rem;
   border: none;
 }
 
 button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(184, 84, 232, 1) 0%,
-    rgba(132, 53, 222, 1) 100%
-  );
+  background: #19274e;
 }
