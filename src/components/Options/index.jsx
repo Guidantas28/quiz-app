@@ -4,6 +4,7 @@ import { QuizContext } from '../../context/Quiz'
 import './styles.css'
 
 const Option = ({ option, selectOption, answer }) => {
+  // eslint-disable-next-line no-unused-vars
   const [quizState, dispatch] = useContext(QuizContext)
   return (
     <div
