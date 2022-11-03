@@ -4,7 +4,7 @@ import { QuizContext } from '../../context/Quiz'
 
 import './styles.css'
 
-export const Welcome = () => {
+const Welcome = () => {
   const [quizState, dispatch] = useContext(QuizContext)
 
   return (
@@ -18,3 +18,5 @@ export const Welcome = () => {
     </div>
   )
 }
+
+export default Welcome

@@ -1,4 +1,4 @@
-export const data = [
+const data = [
   {
     question: 'O que é Vanilla JavaScript?',
     options: [
@@ -31,3 +31,4 @@ export const data = [
     answer: 'length',
   },
 ]
+export default data
